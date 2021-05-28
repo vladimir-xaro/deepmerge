@@ -1,0 +1,33 @@
+{
+  "name": "@xaro/deepmerge",
+  "version": "0.0.1",
+  "description": "Smaller alternative than https://www.npmjs.com/package/deepmerge",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "release": "dotenv release-it --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimir-xaro/deepmerge.git"
+  },
+  "keywords": [
+    "object",
+    "array",
+    "iterate",
+    "recursive",
+    "merge",
+    "deep"
+  ],
+  "author": "Vladimir Slavgorodskiy <vladimir.xaro@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladimir-xaro/deepmerge/issues"
+  },
+  "homepage": "https://github.com/vladimir-xaro/deepmerge#readme",
+  "release-it": {
+    "github": {
+      "release": true
+    }
+  }
+}
