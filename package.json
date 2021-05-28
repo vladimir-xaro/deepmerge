@@ -1,6 +1,6 @@
 {
   "name": "@xaro/deepmerge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Smaller alternative than https://www.npmjs.com/package/deepmerge",
   "main": "index.js",
   "types": "index.d.ts",
