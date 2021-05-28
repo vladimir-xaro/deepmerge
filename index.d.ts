@@ -1,4 +1,4 @@
-export default function deepmerge(target, source, options: {
+export default function deepmerge(target, source, options?: {
   mergeObject:  boolean; // default: true
   mergeArray:   boolean; // default: false
 }): any;
