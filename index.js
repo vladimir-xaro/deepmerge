@@ -3,7 +3,8 @@ export function isObject(item) {
 }
 
 export default function deepmerge(target, source, options = {}) {
-  const mergeObject = options.mergeObject !== undefined && options.mergeObject !== false;
+  const mergeObject = options.mergeObject === undefined ? true : !!options.mergeObject;
+
   if (isObject(target) && isObject(source)) {
     for (const key of Object.keys(source)) {
       if (mergeObject && isObject(source[key])) {
